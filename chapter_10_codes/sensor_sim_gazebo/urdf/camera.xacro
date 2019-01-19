@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 
-<robot name="sensor" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="sensor2" xmlns:xacro="http://ros.org/wiki/xacro">
 <!-- camera -->
 
 
-  <xacro:include filename="$(find sensor_sim_gazebo)/urdf/sensor.xacro"/>
+  <xacro:include filename="$(find sensor_sim_gazebo)/urdf/sensor2.xacro"/>
 
 
-  <gazebo reference="sensor">
+  <gazebo reference="sensor2">
     <sensor type="camera" name="camera1">
       <update_rate>30.0</update_rate>
       <camera name="head">
