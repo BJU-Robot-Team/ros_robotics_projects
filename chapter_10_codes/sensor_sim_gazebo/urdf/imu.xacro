@@ -42,7 +42,7 @@
     <gazebo>
       <plugin name="sensor" filename="libgazebo_ros_imu.so">
         <alwaysOn>true</alwaysOn>
-        <bodyName>${parent}</bodyName>
+        <bodyName>gps</bodyName>
         <topicName>imu</topicName>
         <serviceName>imu_service</serviceName>
         <gaussianNoise>0.1</gaussianNoise>

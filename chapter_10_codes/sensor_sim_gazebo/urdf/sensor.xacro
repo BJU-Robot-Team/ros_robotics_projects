@@ -3,7 +3,7 @@
 <robot name="sensor" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:property name="height1" value="0.2" />
   <xacro:property name="width" value="0.2" />
-  <xacro:property name="parent" value="base_footprint" />
+  <xacro:property name="parent" value="gps" />
  <!-- Used for fixing robot to Gazebo 'base_link' -->
   <!-- <link name="${parent}"/> -->
 
