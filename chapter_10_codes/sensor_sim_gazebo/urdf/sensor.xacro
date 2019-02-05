@@ -15,14 +15,14 @@
  <!-- Base Link -->
   <link name="sensor">
     <collision>
-      <origin xyz="0 0 ${height1/2}" rpy="0 0 0"/>
+      <origin xyz="-1 0 ${height1/2}" rpy="0 0 0"/>
       <geometry>
         <box size="${width} ${width} ${height1}"/>
       </geometry>
     </collision>
 
     <visual>
-      <origin xyz="0 0 ${height1/2}" rpy="0 0 0"/>
+      <origin xyz="-1 0 ${height1/2}" rpy="0 0 0"/>
       <geometry>
         <box size="${width} ${width} ${height1}"/>
       </geometry>
@@ -30,12 +30,12 @@
     </visual>
 
     <inertial>
-      <origin xyz="0 0 1" rpy="0 0 0"/>
-      <mass value="1"/>
+      <origin xyz="-1 0 1" rpy="0 0 0"/>
+      <mass value="0.000001"/>
       <inertia
-        ixx="1.0" ixy="0.0" ixz="0.0"
-        iyy="1.0" iyz="0.0"
-        izz="1.0"/>
+        ixx="0.000001" ixy="0.0" ixz="0.0"
+        iyy="0.000001" iyz="0.0"
+        izz="0.000001"/>
     </inertial>
   </link>
 
